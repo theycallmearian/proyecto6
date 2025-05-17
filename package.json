@@ -1,0 +1,17 @@
+{
+  "name": "proyecto6",
+  "version": "1.0.0",
+  "description": "Backend API de los Vengadores - Proyecto 6",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node seed.js"
+  },
+  "author": "Àrian Castro",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1"
+  }
+}
