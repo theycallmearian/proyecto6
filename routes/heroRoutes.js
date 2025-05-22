@@ -4,12 +4,14 @@ const {
   getAllHeroes,
   createHero,
   getHeroById,
-  updateHero
+  updateHero,
+  deleteHero
 } = require('../controllers/heroController')
 
 router.get('/', getAllHeroes)
 router.post('/', createHero)
 router.get('/:id', getHeroById)
 router.put('/:id', updateHero)
+router.delete('/:id', deleteHero)
 
 module.exports = router
